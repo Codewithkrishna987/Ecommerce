@@ -5,8 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   </head>
   <body>
-    <script src="./script.js"></script>
+    <header class="h-[12vh] bg-white shadow-md flex items-center justify-around">
+      <img src="https://logolook.net/wp-content/uploads/2023/01/Myntra-Emblem-2048x1152.png" alt="" class="h-[10vh] pt-4 pb-3 px-4">
+      <p class="font-bold text-gray-700 text-sm pt-2 ">MEN</p>
+      <p class="font-bold text-gray-700 text-sm pt-2">WOMEN</p>
+      <p class="font-bold text-gray-700 text-sm pt-2">KIDS</p>
+      <p class="font-bold text-gray-700 text-sm pt-2">HOME & LIVING</p>
+      <p class="font-bold text-gray-700 text-sm pt-2">BEAUTY</p>
+      <DIV class="flex items-center">
+        <p class="font-bold text-gray-700 text-sm pt-2">STUDIO</p>
+        <p class="text-pink-700 font-bold text-[12px]">NEW</p>
+      </DIV>
+      <div class=" p-4 rounded-lg flex items-center space-x-2 ">
+        <i class="fa-solid fa-magnifying-glass text-gray-500 bg-gray-200 mx-0 pl-3 pr-5 py-3 rounded-bl-sm rounded-tl-sm "></i>
+        <input type="text" placeholder="search for products, brands and more" class="w-[300px] px-2 py-2 rounded-br-sm rounded-tr-sm  focus:outline-none focus:ring-none bg-gray-200 mx-0 ">
+      </div>
+      <i class="fa-regular fa-user text-xl "></i>
+      <i class="fa-regular fa-heart text-xl"></i>
+      <i class="fa-solid fa-bag-shopping text-xl pr-3"></i>
+    </header>
+    <div>
+      <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/6142e9ef64639_landing_page_-_carousel_banner_-.png?d=1920x1920" alt="" class="mt-[6vh] mb-[2vh] w-full h-[55vh] hidden"  id="coverimage1">
+      <img src="https://scontent.fbho1-3.fna.fbcdn.net/v/t1.6435-9/166613360_10159704463653221_1223237918267244581_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tcNDQlWMvv0Q7kNvgELy_pV&_nc_oc=Adhh1KsD4KwtCWvLVgNjXHZU6DNdvOBIbE3LXLhssLnJnrCzvttTaZiCxM414f7HmVpyEXSn5Onhwf5gMK0KRGaR&_nc_zt=23&_nc_ht=scontent.fbho1-3.fna&_nc_gid=AhD0iHF2p4MneDaOud-vKdu&oh=00_AYGpQ-28WBOglt-dGqL3CUSYlHID5RjiXyIOCm6oFgn4gw&oe=67FA8174" alt="" class="mt-[6vh] mb-[2vh] w-full h-[55vh] hidden" id="coverimage2">
+      <img src="https://scontent.fbho1-3.fna.fbcdn.net/v/t1.6435-9/160554793_10159659436678221_1553221071181573579_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=jEXPIuVAZzAQ7kNvgGVssZw&_nc_oc=AdjPodYmSA1WlwSpeLZhb3kwvdOx-B5tTQOubWgNVxGK5pJDQV3N9pcaHK6qrp1THPJizHlYuYu4sxASycJDYbmP&_nc_zt=23&_nc_ht=scontent.fbho1-3.fna&_nc_gid=ARESHHCk-Ll-M8qyoeXzYj6&oh=00_AYHuuDmxPz-HnV3wg8hLBmQPPCWO8Albivy5DckeGqY9Aw&oe=67FA7F9B" alt="" class="mt-[6vh] mb-[2vh] w-full h-[55vh] " id="coverimage3">
+      <img src="https://scontent.fbho1-2.fna.fbcdn.net/v/t39.30808-6/480643912_10163044868388221_2046124240069020796_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=YBxx2eYarF0Q7kNvgH-rWos&_nc_oc=Adgme_fo7yVGvnEmW6FQ_I8E48FgjO0VSyGWqe6obAXPz-JvT_DuH8KtmrXo_XUaLX8PUN8Hyd20ciK4hXw99Uke&_nc_zt=23&_nc_ht=scontent.fbho1-2.fna&_nc_gid=ARLjfBWCbTZtRYGcPCnIcPw&oh=00_AYEsDBc3MtGGcYavyKPjOa1i-YqrnRNywwOqTeotQTcHmQ&oe=67D8CAE3" alt="" class="mt-[6vh] mb-[2vh] hidden w-full h-[55vh] " id="coverimage4">
+      <img src="https://scontent.fbho1-2.fna.fbcdn.net/v/t39.30808-6/472877748_10162967497303221_6168717794265001493_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Mvs1ZE9DfK0Q7kNvgGyjSWl&_nc_oc=Adj1LZAjzgd4hqmuMiFwXsuHl__iOiHTMqnECZ2dSaSO64duJg4fJutROKcAVHnnn0HRfMBSXyRgAgRTE5PEAuGk&_nc_zt=23&_nc_ht=scontent.fbho1-2.fna&_nc_gid=AOqUmhvkjPOypJVn-w4wE8g&oh=00_AYHPjiFIdIZA5AaYH6coKKO89esR4lVIe22oblka1wI3FQ&oe=67D8D37B" alt="" class="mt-[6vh] mb-[2vh] hidden w-full h-[55vh] " id="coverimage5">
+      <div class="flex justify-center ">
+        <i class="fa-solid fa-circle text-[5px] border-[2px] rounded-full text-gray-200 border-gray-200 m-1" id="imagepointer1"></i>
+        <i class="fa-solid fa-circle text-[5px] border-[2px] rounded-full text-gray-200 border-gray-200 m-1" id="imagepointer2"></i>
+        <i class="fa-solid fa-circle text-[5px] border-[2px] rounded-full text-gray-200 border-gray-200 m-1" id="imagepointer3"></i>
+        <i class="fa-solid fa-circle text-[5px] border-[2px] rounded-full text-gray-200 border-gray-200 m-1" id="imagepointer4"></i>
+        <i class="fa-solid fa-circle text-[5px] border-[2px] rounded-full text-gray-200 border-gray-200 m-1" id="imagepointer5"></i>
+      </div>
+    </div>
+    <div>
+      <p class="text-2xl text-gray-600 m-6 font-bold py-3">BIGGEST DEALS ON TOP BRANDS</p>
+    </div>
   </body>
+  <script src="./script.js"></script>
+
 </html>
